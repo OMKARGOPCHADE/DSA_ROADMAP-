@@ -153,7 +153,17 @@
     display: none;
   }
 
+  .sidebar .logo .cross{
+    /* height: 10px; */
+    padding: 15px;
+    display: none;
+    /* opacity: 0; */
+    
+}
   @media (max-width: 768px) {
+    .sidebar .logo .cross{
+      display: block;
+    }
     .sidebar {
       position: fixed;
       top: 0;
@@ -348,6 +358,7 @@
       font-size: 0.7rem;
       padding: 4px 8px;
     }
+    .sidebar .logo .cross{
+      display:block;
+    }
   }
-  
-  
